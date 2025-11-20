@@ -1,7 +1,7 @@
-# 📘 CRAFTY_NetLogo
+# CRAFTY_NetLogo
 
 **CRAFTY_NetLogo** is a **NetLogo implementation of the agent-based land-use modelling framework CRAFTY**, originally developed in Java  
-👉 https://github.com/CRAFTY-ABM/CRAFTY_v2/tree/master
+https://github.com/CRAFTY-ABM/CRAFTY_v2/tree/master
 
 This version uses a **stylised 2D grid landscape** and introduces a **new behavioural extension** that incorporates:
 
@@ -16,7 +16,7 @@ It illustrates how spatial land-use patterns emerge from intertwined economic, e
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 CRAFTY_NetLogo/
