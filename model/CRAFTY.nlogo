@@ -127,7 +127,7 @@ to initialize-network
 end
 
 to initialize-land-map
-  let elevation_data csv:from-file "EleviationData.csv"
+  let elevation_data csv:from-file "../data/EleviationData.csv"
   resize-world 0 (length elevation_data - 1) 0 (length elevation_data - 1)
   set-patch-size 8
 
@@ -141,16 +141,16 @@ to initialize-land-map
   let attitude_mean_series_data []  ;; per patch × time
 
   if load_behaviour_from_csv [
-    set max_giving_in_threshold_data csv:from-file "MaxGivingInThresholdData.csv"
-    set norm_weight_data             csv:from-file "NormWeightData.csv"
-    set norm_sensitivity_data        csv:from-file "NormSensitivityData.csv"
-    set inertia_data                 csv:from-file "InertiaData.csv"
+    set max_giving_in_threshold_data csv:from-file "../data/MaxGivingInThresholdData.csv"
+    set norm_weight_data             csv:from-file "../data/NormWeightData.csv"
+    set norm_sensitivity_data        csv:from-file "../data/NormSensitivityData.csv"
+    set inertia_data                 csv:from-file "../data/InertiaData.csv"
   ]
 
   ;; time-varying attitude_mean:
   ;; CSV shape: one row per patch (flattened), one column per time step
   if attitude_distribution = "dynamic_from_csv" [
-    set attitude_mean_series_data    csv:from-file "AttitudeMeanTimeSeries.csv"
+    set attitude_mean_series_data    csv:from-file "../data/AttitudeMeanTimeSeries.csv"
   ]
 
   let row 0
