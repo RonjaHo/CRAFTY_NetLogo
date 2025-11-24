@@ -36,7 +36,7 @@ CRAFTY_NetLogo/
 └── README.md
 `````
 
-## Model Description (Short)
+## Model Description
 
 This model follows CRAFTY’s core structure.
 
