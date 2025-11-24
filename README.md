@@ -65,9 +65,9 @@ Agents may switch AFT based on:
 - Behavioural inertia  
 - A giving-in threshold, calculated with a logistic function  
 
-### Behavioural Extensions (new contribution)
+### Behavioural Extensions 
 
-#### ✓ Per-patch behavioural heterogeneity (via optional CSV files)
+####  Per-patch behavioural heterogeneity (via optional CSV files)
 
 Each land manager can have unique values for:
 
@@ -77,7 +77,7 @@ Each land manager can have unique values for:
 - inertia  
 - giving-in threshold  
 
-#### ✓ Dynamic environmental attitudes (per-patch × time step CSV)
+####  Dynamic environmental attitudes (per-patch × time step CSV)
 
 Environmental attitudes can evolve over time, enabling:
 
